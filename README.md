@@ -8,12 +8,16 @@ O Jogo de Memória Numérica (Simon) é um jogo interativo onde o jogador deve m
 
 Funcionamento:
 
-Iniciar o Jogo: O jogador clica no botão "Start" para começar um novo jogo. A sequência e o nível são reiniciados.
-Exibir Sequência: Uma sequência de números é exibida na tela. A sequência aumenta em um número a cada novo nível.
-Entrada do Jogador: O jogador digita a sequência exibida utilizando o campo de entrada e clica em "Check" para verificar.
-Verificação: O jogo verifica se a sequência digitada pelo jogador corresponde à sequência gerada. Se correta, o jogo avança para o próximo nível; se incorreta, a sequência correta é exibida e o jogo termina.
+- Iniciar o Jogo: O jogador clica no botão "Start" para começar um novo jogo. A sequência e o nível são reiniciados.
+- Exibir Sequência: Uma sequência de números é exibida na tela. A sequência aumenta em um número a cada novo nível.
+- Entrada do Jogador: O jogador digita a sequência exibida utilizando o campo de entrada e clica em "Check" para verificar.
+
+Verificação:
+
+O jogo verifica se a sequência digitada pelo jogador corresponde à sequência gerada. Se correta, o jogo avança para o próximo nível; se incorreta, a sequência correta é exibida e o jogo termina.
 
 Objetivo:
+
 Memorizar e repetir a sequência de números corretamente para alcançar o maior nível possível.
 
 ## Integrantes
