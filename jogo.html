@@ -1,24 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jogo de Memória Numérica (Simon)</title>
+    <title>Caça Palavras</title>
     <link rel="stylesheet" href="jogo.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Jogo de Memória Numérica (Simon)</h1>
-        <div id="sequence"></div>
-        <div id="buttons">
-            <button class="btn" id="start">Start</button>
-            <button class="btn" id="check">Check</button>
+    <header>
+        <h1>Jogo de Caça-Palavras</h1>
+    </header>
+    <main>
+        <h2>Encontre as palavras na lista abaixo dentro do caça-palavras. Boa sorte!</h2>
+        <div id="game-container">
+            <div id="word-grid"></div>
+            <div id="word-list"></div>
         </div>
-        <div id="userInput">
-            <input type="number" id="numberInput" placeholder="Digite o número">
-        </div>
-        <div id="message"></div>
-    </div>
+    </main>
+    <footer>
+        <p>Desenvolvido por Ana Beatriz Maciel, Brenda Beatriz Cristaldo, Thaisse Kirian Veiga. 2024</p>
+    </footer>
     <script src="jogo.js"></script>
 </body>
 </html>
