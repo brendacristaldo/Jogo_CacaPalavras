@@ -1,57 +1,85 @@
-/* styles.css */
 body {
+    font-family: Arial, sans-serif;
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: auto;
+    margin: 0;
+    background-color: #ffd9ab;
+}
+
+header, footer {
+    background-color: #ff7028;
+}
+
+header{
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 50px
+}
+
+header h1{
+    margin: 0;
+}
+
+footer p {
+    margin: 0;
+    font-size: small;
+}
+
+main {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    background-color: #f0f0f0;
-    margin: 0;
-    font-family: Arial, sans-serif;
-}
-
-.container {
     text-align: center;
-    background-color: #ffffff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-h1 {
+h2 {
+    margin: 30px;
+}
+
+#game-container {
+    text-align: center;
+}
+
+#word-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 30px);
+    gap: 5px;
     margin-bottom: 20px;
 }
 
-#sequence {
-    font-size: 2em;
-    margin: 20px 0;
-}
-
-#buttons {
-    margin: 20px 0;
-}
-
-.btn {
-    margin: 5px;
-    padding: 10px 20px;
-    font-size: 1em;
+#word-grid div {
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
     cursor: pointer;
-    border: none;
-    border-radius: 5px;
-    background-color: #007bff;
-    color: white;
+    user-select: none;
 }
 
-#userInput {
-    margin: 20px 0;
-}
-
-#numberInput {
-    padding: 10px;
-    font-size: 1em;
-    width: 100px;
-}
-
-#message {
+#word-list {
     margin-top: 20px;
-    font-size: 1.2em;
+}
+
+#word-grid div.selected {
+    background-color: lightblue;
+}
+
+#word-grid div.found {
+    background-color: yellow;
+    color: black;
 }
