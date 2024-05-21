@@ -18,15 +18,15 @@ header{
     padding: 20px 0;
 }
 
+header h1{
+    margin: 0;
+}
+
 footer {
     color: white;
     text-align: center;
     padding: 20px 0;
     margin-top: 50px
-}
-
-header h1{
-    margin: 0;
 }
 
 footer p {
