@@ -20,4 +20,4 @@ O Jogo de Caça-Palavras é um jogo interativo desenvolvido com HTML, CSS e Java
   <li><a href="https://github.com/Thakirian">Thaisse Kirian Veiga</a></li>
 </ul>
 
-### Divirta-se!
+### Divirta-se!: https://brendacristaldo.github.io/Jogo_CacaPalavras/
